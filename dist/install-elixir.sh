@@ -14,4 +14,4 @@ mkdir -p "${DIR_FOR_BIN}"
 unzip -q -d "${DIR_FOR_BIN}" "${FILE_OUTPUT}"
 echo "Installed Elixir version follows"
 echo $DIR_FOR_BIN
-$DIR_FOR_BIN/bin/iex -v
+${DIR_FOR_BIN}/bin/iex -v
