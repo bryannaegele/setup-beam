@@ -13,4 +13,5 @@ wget -q -O "${FILE_OUTPUT}" "https://repo.hex.pm/builds/elixir/${FILE_INPUT}"
 mkdir -p "${DIR_FOR_BIN}"
 unzip -q -d "${DIR_FOR_BIN}" "${FILE_OUTPUT}"
 echo "Installed Elixir version follows"
+echo "${DIR_FOR_BIN}"
 ${DIR_FOR_BIN}/bin/iex -v
